@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.viatra.query.runtime.localsearch' version='2.8.0.202211221412' generation='2'>
+    <update id='org.eclipse.viatra.query.runtime.localsearch' range='[0.0.0,2.8.0.202211221412)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='VIATRA Local Search Engine'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Eclipse VIATRA Project'/>
+      <property name='maven-groupId' value='org.eclipse.viatra'/>
+      <property name='maven-artifactId' value='org.eclipse.viatra.query.runtime.localsearch'/>
+      <property name='maven-version' value='2.8.0-SNAPSHOT'/>
+    </properties>
+    <provides size='18'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.viatra.query.runtime.localsearch' version='2.8.0.202211221412'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.viatra.query.runtime.localsearch' version='2.8.0.202211221412'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch.exceptions' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch.matcher' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch.matcher.integration' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch.operations' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch.operations.check' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch.operations.extend' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch.operations.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch.plan' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch.planner' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch.planner.compiler' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch.planner.cost' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch.planner.cost.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.runtime.localsearch.profiler' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='org.eclipse.viatra.query.runtime.localsearch' version='2.8.0.202211221412'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='7'>
+      <required namespace='osgi.bundle' name='org.eclipse.viatra.query.runtime.base' range='[2.8.0,2.9.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='2.8.3'/>
+      <required namespace='osgi.bundle' name='org.eclipse.viatra.query.runtime' range='[2.8.0,2.9.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.viatra.query.runtime.matchers' range='[2.8.0,2.9.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.viatra.query.runtime.base.itc' range='[2.8.0,2.9.0)'/>
+      <required namespace='java.package' name='org.apache.log4j' range='1.2.15'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.viatra.query.runtime.localsearch' version='2.8.0.202211221412'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.viatra.query.runtime.localsearch;singleton:=true&#xA;Bundle-Version: 2.8.0.202211221412&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.viatra.query.runtime.localsearch.source' version='2.8.0.202211221412' singleton='false'>
+    <update id='org.eclipse.viatra.query.runtime.localsearch.source' range='[0.0.0,2.8.0.202211221412)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='Eclipse VIATRA Project'/>
+      <property name='df_LT.bundleName' value='VIATRA Local Search Engine Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.viatra'/>
+      <property name='maven-artifactId' value='org.eclipse.viatra.query.runtime.localsearch'/>
+      <property name='maven-version' value='2.8.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.viatra.query.runtime.localsearch.source' version='2.8.0.202211221412'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.viatra.query.runtime.localsearch.source' version='2.8.0.202211221412'/>
+      <provided namespace='osgi.identity' name='org.eclipse.viatra.query.runtime.localsearch.source' version='2.8.0.202211221412'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.viatra.query.runtime.localsearch.source' version='2.8.0.202211221412'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.viatra.query.runtime.localsearch.source&#xA;Bundle-Version: 2.8.0.202211221412&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.viatra.transformation.runtime.emf' version='2.8.0.202210280924'>
+    <properties size='5'>
+      <property name='artifact.size' value='85921'/>
+      <property name='download.size' value='85921'/>
+      <property name='maven-groupId' value='org.eclipse.viatra'/>
+      <property name='maven-artifactId' value='org.eclipse.viatra.transformation.runtime.emf'/>
+      <property name='maven-version' value='2.8.0-SNAPSHOT'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.viatra.transformation.runtime.emf.source' version='2.8.0.202210280924'>
+    <properties size='6'>
+      <property name='artifact.size' value='51239'/>
+      <property name='download.size' value='51239'/>
+      <property name='maven-groupId' value='org.eclipse.viatra'/>
+      <property name='maven-artifactId' value='org.eclipse.viatra.transformation.runtime.emf'/>
+      <property name='maven-version' value='2.8.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+  </artifact>
+</artifacts>

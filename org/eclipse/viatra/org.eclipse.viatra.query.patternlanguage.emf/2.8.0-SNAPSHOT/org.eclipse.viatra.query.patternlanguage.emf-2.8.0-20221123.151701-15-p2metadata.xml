@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.viatra.query.patternlanguage.emf' version='2.8.0.202211231517' generation='2'>
+    <update id='org.eclipse.viatra.query.patternlanguage.emf' range='[0.0.0,2.8.0.202211231517)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='VIATRA EMF Query Language'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Eclipse VIATRA Project'/>
+      <property name='maven-groupId' value='org.eclipse.viatra'/>
+      <property name='maven-artifactId' value='org.eclipse.viatra.query.patternlanguage.emf'/>
+      <property name='maven-version' value='2.8.0-SNAPSHOT'/>
+    </properties>
+    <provides size='23'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.viatra.query.patternlanguage.emf' version='2.8.0.202211231517'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.viatra.query.patternlanguage.emf' version='2.8.0.202211231517'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.annotations' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.annotations.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.formatting' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.helper' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.jvmmodel' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.parser.antlr' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.parser.antlr.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.scoping' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.serializer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.services' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.specification' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.types' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.validation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.validation.whitelist' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.vql' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.vql.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.query.patternlanguage.emf.vql.util' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='org.eclipse.viatra.query.patternlanguage.emf' version='2.8.0.202211231517'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='11'>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext' range='[2.20.0,3.0.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.emf.codegen.ecore' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.xbase' range='[2.20.0,3.0.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.7.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.viatra.query.runtime' range='[2.8.0,2.9.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.viatra.query.runtime.matchers' range='[2.8.0,2.9.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.viatra.query.runtime.localsearch' range='[2.8.0,2.9.0)'/>
+      <required namespace='java.package' name='org.apache.log4j' range='0.0.0'/>
+      <required namespace='java.package' name='com.google.inject' range='0.0.0'/>
+      <required namespace='java.package' name='com.google.inject.multibindings' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.viatra.query.patternlanguage.emf' version='2.8.0.202211231517'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.viatra.query.patternlanguage.emf;singleton:=true&#xA;Bundle-Version: 2.8.0.202211231517&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.viatra.query.patternlanguage.emf.source' version='2.8.0.202211231517' singleton='false'>
+    <update id='org.eclipse.viatra.query.patternlanguage.emf.source' range='[0.0.0,2.8.0.202211231517)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='Eclipse VIATRA Project'/>
+      <property name='df_LT.bundleName' value='VIATRA EMF Query Language Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.viatra'/>
+      <property name='maven-artifactId' value='org.eclipse.viatra.query.patternlanguage.emf'/>
+      <property name='maven-version' value='2.8.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.viatra.query.patternlanguage.emf.source' version='2.8.0.202211231517'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.viatra.query.patternlanguage.emf.source' version='2.8.0.202211231517'/>
+      <provided namespace='osgi.identity' name='org.eclipse.viatra.query.patternlanguage.emf.source' version='2.8.0.202211231517'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.viatra.query.patternlanguage.emf.source' version='2.8.0.202211231517'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.viatra.query.patternlanguage.emf.source&#xA;Bundle-Version: 2.8.0.202211231517&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

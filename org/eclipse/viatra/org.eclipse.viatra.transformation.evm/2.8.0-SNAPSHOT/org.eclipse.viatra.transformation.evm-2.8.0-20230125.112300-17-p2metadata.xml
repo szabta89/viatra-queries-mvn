@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.viatra.transformation.evm' version='2.8.0.202301251123' generation='2'>
+    <update id='org.eclipse.viatra.transformation.evm' range='[0.0.0,2.8.0.202301251123)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='VIATRA Event-Driven Virtual Machine'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Eclipse VIATRA Project'/>
+      <property name='maven-groupId' value='org.eclipse.viatra'/>
+      <property name='maven-artifactId' value='org.eclipse.viatra.transformation.evm'/>
+      <property name='maven-version' value='2.8.0-SNAPSHOT'/>
+    </properties>
+    <provides size='18'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.viatra.transformation.evm' version='2.8.0.202301251123'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.viatra.transformation.evm' version='2.8.0.202301251123'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.api' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.api.adapter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.api.event' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.api.event.adapter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.api.resolver' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.notification' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.specific' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.specific.crud' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.specific.event' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.specific.job' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.specific.lifecycle' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.specific.resolver' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.specific.scheduler' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.viatra.transformation.evm.update' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='org.eclipse.viatra.transformation.evm' version='2.8.0.202301251123'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='3'>
+      <required namespace='osgi.bundle' name='org.eclipse.viatra.query.runtime' range='[2.8.0,2.9.0)'/>
+      <required namespace='java.package' name='org.apache.log4j' range='1.2.15'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.viatra.transformation.evm' version='2.8.0.202301251123'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.viatra.transformation.evm;singleton:=true&#xA;Bundle-Version: 2.8.0.202301251123&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.viatra.transformation.evm.source' version='2.8.0.202301251123' singleton='false'>
+    <update id='org.eclipse.viatra.transformation.evm.source' range='[0.0.0,2.8.0.202301251123)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='Eclipse VIATRA Project'/>
+      <property name='df_LT.bundleName' value='VIATRA Event-Driven Virtual Machine Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.viatra'/>
+      <property name='maven-artifactId' value='org.eclipse.viatra.transformation.evm'/>
+      <property name='maven-version' value='2.8.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.viatra.transformation.evm.source' version='2.8.0.202301251123'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.viatra.transformation.evm.source' version='2.8.0.202301251123'/>
+      <provided namespace='osgi.identity' name='org.eclipse.viatra.transformation.evm.source' version='2.8.0.202301251123'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.viatra.transformation.evm.source' version='2.8.0.202301251123'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.viatra.transformation.evm.source&#xA;Bundle-Version: 2.8.0.202301251123&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

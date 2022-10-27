@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.eclipse.viatra</groupId>
+  <artifactId>viatra-query-runtime</artifactId>
+  <versioning>
+    <versions>
+      <version>2.8.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230323130117</lastUpdated>
+  </versioning>
+</metadata>

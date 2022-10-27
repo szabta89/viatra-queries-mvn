@@ -1,1 +1,1 @@
-# codeql-incremental-mvn
+# viatra-queries-mvn
